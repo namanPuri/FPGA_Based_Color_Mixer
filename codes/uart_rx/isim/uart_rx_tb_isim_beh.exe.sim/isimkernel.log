@@ -1,0 +1,29 @@
+Command line:
+   uart_rx_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  51620
+
+Tue May 11 15:18:59 2021
+
+
+ Elaboration Time: 0.046875 sec
+
+ Current Memory Usage: 5149.6 Meg
+
+ Total Signals          : 36
+ Total Nets             : 47
+ Total Signal Drivers   : 20
+ Total Blocks           : 8
+ Total Primitive Blocks : 6
+ Total Processes        : 32
+ Total Traceable Variables  : 43
+ Total Scalar Nets and Variables : 202
+Total Line Count : 121
+
+ Total Simulation Time: 0.25 sec
+
+ Current Memory Usage: 5149.6 Meg
+
+Tue May 11 15:19:14 2021
+
