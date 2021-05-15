@@ -167,6 +167,10 @@
     <transform xil_pn:end_ts="1619971007" xil_pn:in_ck="-1843707040166609961" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1619971007">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="adc.v"/>
       <outfile xil_pn:name="adc1complete_tb.v"/>
     </transform>
@@ -185,13 +189,21 @@
     <transform xil_pn:end_ts="1619971007" xil_pn:in_ck="-1843707040166609961" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1619971007">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="adc.v"/>
       <outfile xil_pn:name="adc1complete_tb.v"/>
     </transform>
     <transform xil_pn:end_ts="1619971010" xil_pn:in_ck="-1843707040166609961" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="1251560568854261739" xil_pn:start_ts="1619971007">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
       <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="adc4pwm_beh.prj"/>
       <outfile xil_pn:name="adc4pwm_isim_beh.exe"/>
@@ -203,6 +215,7 @@
     <transform xil_pn:end_ts="1619971011" xil_pn:in_ck="6562932493215822881" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="1691669877726673422" xil_pn:start_ts="1619971010">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="adc4pwm_isim_beh.wdb"/>
@@ -240,7 +253,9 @@
     <transform xil_pn:end_ts="1619970995" xil_pn:in_ck="118737484" xil_pn:name="TRANEXT_xstsynthesize_spartan3e" xil_pn:prop_ck="-2894847851434440091" xil_pn:start_ts="1619970986">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
       <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
       <outfile xil_pn:name="adc.ngr"/>

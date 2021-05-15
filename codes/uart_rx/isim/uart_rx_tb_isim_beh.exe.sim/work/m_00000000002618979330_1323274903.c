@@ -25,7 +25,7 @@ static const char *ng0 = "F:/CEDT projects/color_mixer_fpga/codes/uart_rx/uart_r
 
 
 
-static void Cont_177_0(char *t0)
+static void Cont_203_0(char *t0)
 {
     char t3[8];
     char t4[8];
@@ -70,7 +70,7 @@ LAB0:    t1 = (t0 + 2688U);
 
 LAB3:    goto *t2;
 
-LAB2:    xsi_set_current_line(177, ng0);
+LAB2:    xsi_set_current_line(203, ng0);
     t2 = (t0 + 1368U);
     t5 = *((char **)t2);
     memset(t4, 0, 8);
@@ -158,7 +158,7 @@ LAB14:    memcpy(t3, t17, 8);
 
 extern void work_m_00000000002618979330_1323274903_init()
 {
-	static char *pe[] = {(void *)Cont_177_0};
+	static char *pe[] = {(void *)Cont_203_0};
 	xsi_register_didat("work_m_00000000002618979330_1323274903", "isim/uart_rx_tb_isim_beh.exe.sim/work/m_00000000002618979330_1323274903.didat");
 	xsi_register_executes(pe);
 }

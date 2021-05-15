@@ -27,7 +27,7 @@ static int ng2[] = {0, 0};
 
 
 
-static void Cont_168_0(char *t0)
+static void Cont_194_0(char *t0)
 {
     char t3[8];
     char t4[8];
@@ -89,7 +89,7 @@ LAB0:    t1 = (t0 + 2528U);
 
 LAB3:    goto *t2;
 
-LAB2:    xsi_set_current_line(168, ng0);
+LAB2:    xsi_set_current_line(194, ng0);
     t2 = (t0 + 1048U);
     t5 = *((char **)t2);
     t2 = (t0 + 1208U);
@@ -205,7 +205,7 @@ LAB18:    memcpy(t3, t33, 8);
 
 extern void work_m_00000000001012137261_3306708044_init()
 {
-	static char *pe[] = {(void *)Cont_168_0};
+	static char *pe[] = {(void *)Cont_194_0};
 	xsi_register_didat("work_m_00000000001012137261_3306708044", "isim/uart_rx_tb_isim_beh.exe.sim/work/m_00000000001012137261_3306708044.didat");
 	xsi_register_executes(pe);
 }

@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2021-05-10T19:44:28</DateModified>
-  <ModuleName>clk_divider</ModuleName>
-  <SummaryTimeStamp>Unknown</SummaryTimeStamp>
+  <DateModified>2021-05-15T13:25:38</DateModified>
+  <ModuleName>uart_rx_code</ModuleName>
+  <SummaryTimeStamp>2021-05-15T13:09:36</SummaryTimeStamp>
   <SavedFilePath>F:/CEDT projects/color_mixer_fpga/codes/uart_rx/iseconfig/uart_rx_code.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>F:/CEDT projects/color_mixer_fpga/codes/uart_rx</ImplementationReportsDirectory>
-  <DateInitialized>2021-05-10T19:44:27</DateInitialized>
+  <ImplementationReportsDirectory>F:/CEDT projects/color_mixer_fpga/codes/uart_rx\</ImplementationReportsDirectory>
+  <DateInitialized>2021-05-15T13:25:38</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>
  <body>
